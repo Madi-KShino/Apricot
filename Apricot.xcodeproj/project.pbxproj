@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71748A1E1692F9226F99B032 /* Pods_Apricot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50C4A50AD6DE3BC1EB83A8D /* Pods_Apricot.framework */; };
+		DF458ED824DB56EA004D7D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF458ED724DB56EA004D7D4F /* AppDelegate.swift */; };
+		DF458EDA24DB56EA004D7D4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF458ED924DB56EA004D7D4F /* SceneDelegate.swift */; };
+		DF458EDC24DB56EA004D7D4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF458EDB24DB56EA004D7D4F /* ContentView.swift */; };
+		DF458EDE24DB56EE004D7D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF458EDD24DB56EE004D7D4F /* Assets.xcassets */; };
+		DF458EE124DB56EE004D7D4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF458EE024DB56EE004D7D4F /* Preview Assets.xcassets */; };
+		DF458EE424DB56EE004D7D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF458EE224DB56EE004D7D4F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A5B4E8173CDAD1D3810C620 /* Pods-Apricot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apricot.debug.xcconfig"; path = "Target Support Files/Pods-Apricot/Pods-Apricot.debug.xcconfig"; sourceTree = "<group>"; };
+		A50C4A50AD6DE3BC1EB83A8D /* Pods_Apricot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apricot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F94ED8AD1293E009A13688 /* Pods-Apricot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apricot.release.xcconfig"; path = "Target Support Files/Pods-Apricot/Pods-Apricot.release.xcconfig"; sourceTree = "<group>"; };
+		DF458ED424DB56EA004D7D4F /* Apricot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apricot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF458ED724DB56EA004D7D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF458ED924DB56EA004D7D4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF458EDB24DB56EA004D7D4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF458EDD24DB56EE004D7D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF458EE024DB56EE004D7D4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF458EE324DB56EE004D7D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF458EE524DB56EE004D7D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF458ED124DB56EA004D7D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71748A1E1692F9226F99B032 /* Pods_Apricot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D2B918C0CBEB7E67A8D198 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A5B4E8173CDAD1D3810C620 /* Pods-Apricot.debug.xcconfig */,
+				A7F94ED8AD1293E009A13688 /* Pods-Apricot.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		42709F0CFF10C4EAC9D54A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A50C4A50AD6DE3BC1EB83A8D /* Pods_Apricot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF458ECB24DB56EA004D7D4F = {
+			isa = PBXGroup;
+			children = (
+				DF458ED624DB56EA004D7D4F /* Apricot */,
+				DF458ED524DB56EA004D7D4F /* Products */,
+				28D2B918C0CBEB7E67A8D198 /* Pods */,
+				42709F0CFF10C4EAC9D54A2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF458ED524DB56EA004D7D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF458ED424DB56EA004D7D4F /* Apricot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF458ED624DB56EA004D7D4F /* Apricot */ = {
+			isa = PBXGroup;
+			children = (
+				DF458ED724DB56EA004D7D4F /* AppDelegate.swift */,
+				DF458ED924DB56EA004D7D4F /* SceneDelegate.swift */,
+				DF458EDB24DB56EA004D7D4F /* ContentView.swift */,
+				DF458EDD24DB56EE004D7D4F /* Assets.xcassets */,
+				DF458EE224DB56EE004D7D4F /* LaunchScreen.storyboard */,
+				DF458EE524DB56EE004D7D4F /* Info.plist */,
+				DF458EDF24DB56EE004D7D4F /* Preview Content */,
+			);
+			path = Apricot;
+			sourceTree = "<group>";
+		};
+		DF458EDF24DB56EE004D7D4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF458EE024DB56EE004D7D4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF458ED324DB56EA004D7D4F /* Apricot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF458EE824DB56EE004D7D4F /* Build configuration list for PBXNativeTarget "Apricot" */;
+			buildPhases = (
+				F770B5C3C07E2C7A6613FB92 /* [CP] Check Pods Manifest.lock */,
+				DF458ED024DB56EA004D7D4F /* Sources */,
+				DF458ED124DB56EA004D7D4F /* Frameworks */,
+				DF458ED224DB56EA004D7D4F /* Resources */,
+				147F790AEE3633D5FE35BF7E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apricot;
+			productName = Apricot;
+			productReference = DF458ED424DB56EA004D7D4F /* Apricot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF458ECC24DB56EA004D7D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = madiShino;
+				TargetAttributes = {
+					DF458ED324DB56EA004D7D4F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = DF458ECF24DB56EA004D7D4F /* Build configuration list for PBXProject "Apricot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF458ECB24DB56EA004D7D4F;
+			productRefGroup = DF458ED524DB56EA004D7D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF458ED324DB56EA004D7D4F /* Apricot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF458ED224DB56EA004D7D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF458EE424DB56EE004D7D4F /* LaunchScreen.storyboard in Resources */,
+				DF458EE124DB56EE004D7D4F /* Preview Assets.xcassets in Resources */,
+				DF458EDE24DB56EE004D7D4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		147F790AEE3633D5FE35BF7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apricot/Pods-Apricot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apricot/Pods-Apricot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Apricot/Pods-Apricot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F770B5C3C07E2C7A6613FB92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apricot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF458ED024DB56EA004D7D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF458ED824DB56EA004D7D4F /* AppDelegate.swift in Sources */,
+				DF458EDA24DB56EA004D7D4F /* SceneDelegate.swift in Sources */,
+				DF458EDC24DB56EA004D7D4F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF458EE224DB56EE004D7D4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF458EE324DB56EE004D7D4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF458EE624DB56EE004D7D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF458EE724DB56EE004D7D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF458EE924DB56EE004D7D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5B4E8173CDAD1D3810C620 /* Pods-Apricot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Apricot/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MJ3MC3A9A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Apricot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = madiShino.Apricot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF458EEA24DB56EE004D7D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F94ED8AD1293E009A13688 /* Pods-Apricot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Apricot/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MJ3MC3A9A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Apricot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = madiShino.Apricot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF458ECF24DB56EA004D7D4F /* Build configuration list for PBXProject "Apricot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF458EE624DB56EE004D7D4F /* Debug */,
+				DF458EE724DB56EE004D7D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF458EE824DB56EE004D7D4F /* Build configuration list for PBXNativeTarget "Apricot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF458EE924DB56EE004D7D4F /* Debug */,
+				DF458EEA24DB56EE004D7D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF458ECC24DB56EA004D7D4F /* Project object */;
+}

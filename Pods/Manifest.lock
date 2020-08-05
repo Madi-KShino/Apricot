@@ -1,0 +1,22 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift
+  - TextFieldEffects
+
+SPEC REPOS:
+  trunk:
+    - ChameleonFramework
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: 5f850223814c68b2f6ac4a97ad66b1ac58959eb8
+
+COCOAPODS: 1.9.3

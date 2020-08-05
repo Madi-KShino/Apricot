@@ -1,0 +1,6 @@
+framework module Pods_Apricot {
+  umbrella header "Pods-Apricot-umbrella.h"
+
+  export *
+  module * { export * }
+}
