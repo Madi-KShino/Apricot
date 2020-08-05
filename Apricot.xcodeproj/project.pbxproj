@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		71748A1E1692F9226F99B032 /* Pods_Apricot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50C4A50AD6DE3BC1EB83A8D /* Pods_Apricot.framework */; };
+		DF2850E024DB58B0008500A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2850DF24DB58B0008500A5 /* Default-568h@2x.png */; };
 		DF458ED824DB56EA004D7D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF458ED724DB56EA004D7D4F /* AppDelegate.swift */; };
 		DF458EDA24DB56EA004D7D4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF458ED924DB56EA004D7D4F /* SceneDelegate.swift */; };
 		DF458EDC24DB56EA004D7D4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF458EDB24DB56EA004D7D4F /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 		1A5B4E8173CDAD1D3810C620 /* Pods-Apricot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apricot.debug.xcconfig"; path = "Target Support Files/Pods-Apricot/Pods-Apricot.debug.xcconfig"; sourceTree = "<group>"; };
 		A50C4A50AD6DE3BC1EB83A8D /* Pods_Apricot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apricot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F94ED8AD1293E009A13688 /* Pods-Apricot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apricot.release.xcconfig"; path = "Target Support Files/Pods-Apricot/Pods-Apricot.release.xcconfig"; sourceTree = "<group>"; };
+		DF2850DF24DB58B0008500A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DF458ED424DB56EA004D7D4F /* Apricot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apricot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF458ED724DB56EA004D7D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF458ED924DB56EA004D7D4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				1A5B4E8173CDAD1D3810C620 /* Pods-Apricot.debug.xcconfig */,
 				A7F94ED8AD1293E009A13688 /* Pods-Apricot.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -60,9 +61,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF2850DE24DB5826008500A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF458ED724DB56EA004D7D4F /* AppDelegate.swift */,
+				DF458ED924DB56EA004D7D4F /* SceneDelegate.swift */,
+				DF458EE224DB56EE004D7D4F /* LaunchScreen.storyboard */,
+				DF458EDD24DB56EE004D7D4F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DF458ECB24DB56EA004D7D4F = {
 			isa = PBXGroup;
 			children = (
+				DF2850DF24DB58B0008500A5 /* Default-568h@2x.png */,
 				DF458ED624DB56EA004D7D4F /* Apricot */,
 				DF458ED524DB56EA004D7D4F /* Products */,
 				28D2B918C0CBEB7E67A8D198 /* Pods */,
@@ -81,13 +94,10 @@
 		DF458ED624DB56EA004D7D4F /* Apricot */ = {
 			isa = PBXGroup;
 			children = (
-				DF458ED724DB56EA004D7D4F /* AppDelegate.swift */,
-				DF458ED924DB56EA004D7D4F /* SceneDelegate.swift */,
 				DF458EDB24DB56EA004D7D4F /* ContentView.swift */,
-				DF458EDD24DB56EE004D7D4F /* Assets.xcassets */,
-				DF458EE224DB56EE004D7D4F /* LaunchScreen.storyboard */,
-				DF458EE524DB56EE004D7D4F /* Info.plist */,
+				DF2850DE24DB5826008500A5 /* Resources */,
 				DF458EDF24DB56EE004D7D4F /* Preview Content */,
+				DF458EE524DB56EE004D7D4F /* Info.plist */,
 			);
 			path = Apricot;
 			sourceTree = "<group>";
@@ -161,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF458EE424DB56EE004D7D4F /* LaunchScreen.storyboard in Resources */,
+				DF2850E024DB58B0008500A5 /* Default-568h@2x.png in Resources */,
 				DF458EE124DB56EE004D7D4F /* Preview Assets.xcassets in Resources */,
 				DF458EDE24DB56EE004D7D4F /* Assets.xcassets in Resources */,
 			);
@@ -285,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -354,6 +365,7 @@
 			baseConfigurationReference = 1A5B4E8173CDAD1D3810C620 /* Pods-Apricot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Apricot/Preview Content\"";
 				DEVELOPMENT_TEAM = 8MJ3MC3A9A;
@@ -365,6 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = madiShino.Apricot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
